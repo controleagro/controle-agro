@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Planilha de Controle Agro | R$ 19,90</title>
+<meta name="description" content="Controle custos, receitas, lucro por safra, custo por hectare e fluxo de caixa em uma planilha pronta para Excel e Google Planilhas.">
+<meta property="og:title" content="Planilha de Controle Agro | R$ 19,90">
+<meta property="og:description" content="Descubra quanto cada safra realmente deixou de lucro.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=Inter:wght@400;600;700&display=swap">
+<style>
+:root{--verde:#1E5631;--verde2:#236137;--creme:#F6F1E4;--trigo:#F2C14E;--tinta:#1F2A1C;--suave:#4A4A3F;--azul:#2E75B6;--verm:#B03A36}
+*{box-sizing:border-box}
+body{margin:0;font-family:'Inter',system-ui,sans-serif;color:var(--tinta);background:var(--creme);line-height:1.5}
+h1,h2,.num,.logo,.preco{font-family:'Barlow Condensed',Impact,sans-serif;font-weight:800;text-transform:uppercase;margin:0}
+a:focus-visible{outline:3px solid var(--tinta);outline-offset:3px}
+.wrap{max-width:1100px;margin:0 auto;padding:0 24px}
+.hero{background:repeating-linear-gradient(100deg,var(--verde) 0 60px,var(--verde2) 60px 120px);color:var(--creme);padding:28px 0 72px}
+.topo{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.logo{font-size:28px;letter-spacing:1px}
+.btn{display:inline-block;background:var(--trigo);color:var(--tinta);font-weight:700;text-decoration:none;border-radius:14px;padding:14px 26px}
+.btn.pill{border-radius:999px;padding:12px 22px}
+.btn.grande{font-size:20px;padding:18px 32px}
+.hero-grid{display:flex;gap:48px;flex-wrap:wrap;align-items:center;margin-top:56px}
+.hero-txt{flex:1 1 420px}
+.sel{font-size:14px;letter-spacing:2px;font-weight:700;color:var(--trigo)}
+h1{font-size:clamp(52px,8vw,96px);line-height:.95;margin-top:16px}
+.hero p{font-size:20px;max-width:560px;margin:20px 0 0}
+.compra{display:flex;align-items:center;gap:24px;flex-wrap:wrap;margin-top:32px}
+.preco{font-size:72px;line-height:1;color:var(--trigo)}
+.compra small{display:block;font-size:14px}
+.painel{flex:1 1 320px;background:var(--creme);color:var(--tinta);border-radius:20px;padding:28px}
+.painel h3{font-family:'Barlow Condensed',sans-serif;font-size:28px;font-weight:700;color:var(--verde);margin:0;text-transform:uppercase}
+.painel .aviso{font-size:12px;color:var(--suave);margin:0 0 16px}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.kpi{background:#fff;border-radius:12px;padding:14px}
+.kpi span{display:block;font-size:12px;color:var(--suave)}
+.kpi b{font-size:24px}
+.barras{display:flex;align-items:flex-end;gap:8px;height:90px;margin-top:20px;border-bottom:2px solid var(--verde)}
+.barras i{flex:1;display:block}
+.numeros{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:16px;text-align:center;padding-top:56px}
+.numeros div{background:#fff;border-radius:14px;padding:22px;font-size:15px}
+.num{display:block;font-size:56px;color:var(--verde);line-height:1}
+section h2{font-size:48px;color:var(--verde);margin:72px 0 24px}
+.grade{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.cartao{border:2px solid var(--verde);border-radius:16px;padding:24px}
+.cartao b{font-size:20px}
+.cartao p{margin:8px 0 0;color:var(--suave)}
+.passo{background:#fff;border-radius:16px;padding:24px;font-size:18px;font-weight:700}
+.passo .num{color:#8A5F00;font-size:48px}
+.duvida{background:#fff;border-radius:14px;padding:22px;margin-bottom:16px}
+.duvida b{font-size:18px}
+.duvida p{margin:6px 0 0;color:var(--suave)}
+.final{background:var(--verde);color:var(--creme);margin-top:72px;padding:64px 24px;text-align:center}
+.final h2{font-size:clamp(40px,6vw,64px);color:var(--creme);margin:0}
+.final .preco{margin-top:12px}
+.final .btn{margin-top:16px}
+.final p{margin:20px 0 0}
+</style>
+</head>
+<body>
+<header class="hero">
+<div class="wrap">
+<div class="topo">
+<div class="logo">Controle Agro</div>
+<a class="btn pill" href="https://wa.me/5562993690778?text=Quero%20a%20Planilha%20de%20Controle%20Agro">Comprar no WhatsApp</a>
+</div>
+<div class="hero-grid">
+<div class="hero-txt">
+<div class="sel">PLANILHA PRONTA PARA EXCEL E GOOGLE PLANILHAS</div>
+<h1>Descubra quanto cada safra realmente deixou de lucro</h1>
+<p>Lance seus custos e suas vendas e veja lucro, margem, custo por hectare e fluxo de caixa calculados na hora. Sem montar fórmulas.</p>
+<div class="compra">
+<div><div class="preco">R$ 19,90</div><small>pagamento único, sem mensalidade</small></div>
+<a class="btn grande" href="https://wa.me/5562993690778?text=Quero%20a%20Planilha%20de%20Controle%20Agro">Quero minha planilha</a>
+</div>
+</div>
+<div class="painel" aria-label="Exemplo do painel da planilha">
+<h3>Resumo da safra</h3>
+<p class="aviso">Exemplo com dados fictícios, só para mostrar o painel</p>
+<div class="kpis">
+<div class="kpi"><span>Receita</span><b style="color:var(--azul)">R$ 62.000</b></div>
+<div class="kpi"><span>Despesa</span><b style="color:var(--verm)">R$ 34.200</b></div>
+<div class="kpi"><span>Lucro</span><b style="color:var(--verde)">R$ 27.800</b></div>
+<div class="kpi"><span>Margem</span><b style="color:var(--verde)">44,8%</b></div>
+</div>
+<div class="barras" aria-hidden="true">
+<i style="height:20%;background:var(--azul)"></i><i style="height:60%;background:var(--verm)"></i><i style="height:35%;background:var(--azul)"></i><i style="height:45%;background:var(--verm)"></i><i style="height:95%;background:var(--azul)"></i><i style="height:25%;background:var(--verm)"></i>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+<main class="wrap">
+<div class="numeros">
+<div><span class="num">5</span>abas prontas</div>
+<div><span class="num">10</span>safras ou atividades</div>
+<div><span class="num">1.000</span>linhas de lançamentos</div>
+<div><span class="num">15</span>categorias de custo</div>
+<div><span class="num">2</span>gráficos automáticos</div>
+</div>
+
+<section>
+<h2>O que você recebe</h2>
+<div class="grade">
+<div class="cartao"><b>Despesas e receitas</b><p>Lance cada gasto e cada venda com listas prontas. O total sai sozinho.</p></div>
+<div class="cartao"><b>Lucro por safra</b><p>Receita, despesa, lucro e margem de cada cultura ou atividade.</p></div>
+<div class="cartao"><b>Custo por hectare</b><p>Saiba quanto custa e quanto rende cada hectare, e o custo por saca vendida.</p></div>
+<div class="cartao"><b>Fluxo de caixa mensal</b><p>Veja em quais meses o dinheiro entra e sai, com gráfico.</p></div>
+</div>
+</section>
+
+<section>
+<h2>Como funciona</h2>
+<div class="grade">
+<div class="passo"><span class="num">1</span><br>Chame no WhatsApp</div>
+<div class="passo"><span class="num">2</span><br>Confirme o pagamento de R$ 19,90</div>
+<div class="passo"><span class="num">3</span><br>Receba o arquivo e comece a lançar</div>
+</div>
+</section>
+
+<section>
+<h2>Dúvidas</h2>
+<div class="duvida"><b>Funciona no celular?</b><p>Sim. Abre no Excel e no aplicativo gratuito Google Planilhas.</p></div>
+<div class="duvida"><b>Preciso saber Excel?</b><p>Não. Você só preenche as células amarelas. As contas são automáticas.</p></div>
+</section>
+</main>
+
+<footer class="final">
+<h2>Comece a controlar sua safra hoje</h2>
+<div class="preco">R$ 19,90</div>
+<a class="btn grande" href="https://wa.me/5562993690778?text=Quero%20a%20Planilha%20de%20Controle%20Agro">Chamar no WhatsApp</a>
+<p>(62) 99369-0778</p>
+</footer>
+</body>
+</html>
